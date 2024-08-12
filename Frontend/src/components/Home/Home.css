@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(77, 99, 112);
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.navbar h1{
+    font-family: "Raleway", sans-serif;
+}
+
+.addbtn{
+    color: white;
+    background-color: #8291a0;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.addbtn:hover {
+    background-color: #6b7885;
+}
+
+

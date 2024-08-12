@@ -1,0 +1,51 @@
+.flashcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.flashcards > div {
+    cursor: pointer;
+    perspective: 1000px; 
+}
+
+.flashcards input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.editbtn{
+    padding: 8px 16px;
+    margin: 30px;
+   
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.edit,.del{
+
+    margin-top: 3px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #8291a0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.edit:hover,.del:hover {
+    background-color: #6b7885;
+}
+

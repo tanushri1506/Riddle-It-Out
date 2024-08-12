@@ -1,0 +1,18 @@
+.cardlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows{
+    margin-bottom: 40px;
+    margin-right: 15%;
+    margin-left: 15%;
+    cursor: pointer;
+    background-color: #8291a0;
+    padding: 10px;
+    border-radius: 50%;
+}
+.arrows:hover{
+    background-color: #6b7885;
+}
